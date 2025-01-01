@@ -1,0 +1,17 @@
+$primary: #d7d7d7;
+$secondary: #333333;
+$info: #555555;
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-size-base: 1.4rem;
+$font-weight-bolder: 800;
+$link-color: $secondary;
+$link-decoration: none;
+
+//nav
+$nav-link-color: $secondary;
+$nav-link-hover-color: none;
+$nav-link-font-size: 15px;
+$nav-link-font-weight: 500;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
