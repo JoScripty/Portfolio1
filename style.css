@@ -12,7 +12,7 @@
     top: 50%;
     transform: translateY(-50%);
     margin: auto;
-    width: 1px;
+    width: 4px;
     height: 100%;
     background-color: #33333381;
 }
@@ -26,7 +26,7 @@
     top: 50%;
     transform: translateY(-50%);
     margin: auto;
-    width: 3px;
+    width: 6px;
     height: 40%;
     background-color: #333333;
 }
@@ -50,7 +50,6 @@
 .title > h6{
     position: relative;
     padding-bottom: 15px;
-    margin-bottom: 50px;
 }
 
 .title > h6::before{
@@ -79,6 +78,50 @@
     background-color: #333333;
 }
 
+nav{
+    margin-top: 3px;
+}
+
+
+.about-card .card p{
+    font-size: 16px;
+}
+
+.swiper-slide button{
+    all: unset;
+}
+
+.swiper-slide img{
+    z-index: 99;
+}
+
+.swiper{
+    position: relative;
+}
+
+.swiper-gradient1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 25%;
+    background: linear-gradient(to right, #d7d7d7, rgba(0, 0, 0, 0));
+    z-index: 100;
+}
+
+.swiper-gradient2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 25%;
+    background: linear-gradient(to left, #d7d7d7, rgba(0, 0, 0, 0));
+    z-index: 100;
+}
+
+
+
+
 @media (min-width: 767px) {
     .home{
         height: 80vh;
@@ -98,7 +141,7 @@
 @media (max-width: 445px) {
     .nav-link{
         font-size: 12px;
-        padding: 7px;
+        padding: 5px 10px;
     }
 
     .message{

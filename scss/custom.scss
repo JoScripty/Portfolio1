@@ -9,9 +9,20 @@ $link-decoration: none;
 
 //nav
 $nav-link-color: $secondary;
-$nav-link-hover-color: none;
 $nav-link-font-size: 15px;
 $nav-link-font-weight: 500;
+
+//card
+$card-bg: $secondary;
+$card-border-radius: none;
+$card-color: $primary;
+
+// tooltip
+$tooltip-font-size: 15px;
+$tooltip-color: $primary;
+$tooltip-bg: $secondary;
+$tooltip-opacity: 1;
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
